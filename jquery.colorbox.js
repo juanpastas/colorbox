@@ -555,7 +555,7 @@
 
 	// Append the HTML when the DOM loads
 	$(appendHTML);
-
+	
 
 	// ****************
 	// PUBLIC FUNCTIONS
@@ -603,6 +603,8 @@
 		
 		return $obj;
 	};
+
+        publicMethod.appendHTML = appendHTML;
 
 	publicMethod.position = function (speed, loadedCallback) {
 		var
